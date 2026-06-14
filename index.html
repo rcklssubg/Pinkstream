@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PinkStream</title>
+
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui;
+      background: linear-gradient(160deg,#fce4ec,#f3e5f5,#ede7f6);
+      color: #4a148c;
+    }
+
+    header {
+      padding: 16px;
+      background: linear-gradient(135deg,#f472b6,#a78bfa);
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 12px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.7);
+      border-radius: 14px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 10px;
+      background: #f472b6;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>🎀 PinkStream</header>
+
+<div class="grid">
+
+  <div class="card">
+    <h3>Bluey</h3>
+    <p>Kids fun show</p>
+    <a class="btn" href="https://iview.abc.net.au/show/bluey" target="_blank">Watch</a>
+  </div>
+
+  <div class="card">
+    <h3>New Girl</h3>
+    <p>Funny sitcom</p>
+    <a class="btn" href="https://tubitv.com/series/300001800/new-girl" target="_blank">Watch</a>
+  </div>
+
+  <div class="card">
+    <h3>Get Out</h3>
+    <p>Horror thriller</p>
+    <a class="btn" href="https://watch.plex.tv/movie/get-out" target="_blank">Watch</a>
+  </div>
+
+  <div class="card">
+    <h3>Dark</h3>
+    <p>Mind-bending series</p>
+    <a class="btn" href="https://www.netflix.com/title/80100172" target="_blank">Watch</a>
+  </div>
+
+</div>
+
+</body>
+</html>
